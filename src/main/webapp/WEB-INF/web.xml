@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>AboutServlet</servlet-name>
+    <jsp-file>/about.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AboutServlet</servlet-name>
+    <url-pattern>/about</url-pattern>
+  </servlet-mapping>
+</web-app>
